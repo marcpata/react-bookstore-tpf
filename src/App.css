@@ -1,0 +1,57 @@
+.logo {
+    float: left;
+    width: 200px;
+    height: 50px;
+    margin: 16px 24px 16px 0;
+  }
+  
+  .ant-row-rtl .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+  
+.site-layout-background {
+    background: rgb(255, 255, 255);
+  }
+.header {
+    background-color: rgb(218, 187, 105);
+}
+
+.toolbar{
+    background-color: rgb(218, 187, 105);    
+    min-width: 800px;
+    float: right;
+}
+
+.site-card-wrapper {
+  padding: 30px;
+  background: #ececec;
+}
+
+.container-page {
+  padding: 24px;
+  margin: 0;
+  min-height: 280;
+}
+
+.main-container {
+   padding: 0 24px 24px;
+}
+.main-container-form {
+  padding: 0 200px 200px;
+}
+@media all and (max-width: 699px) {
+  .ant-input-search{
+    display: none;
+  }
+  .ant-layout-sider {
+    display: none;
+  }
+  .toolbar {
+    min-width: 0;
+    float: none;
+  }
+  .main-container,.main-container-form {
+    padding: 0 5px 5px;
+  }
+}
